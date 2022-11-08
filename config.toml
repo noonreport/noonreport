@@ -1,0 +1,55 @@
+baseURL = 'http://noon.report/'
+languageCode = 'ru-ru'
+title = 'Noon Report'
+theme = "tufte"
+
+
+# Site wide kill switch for Latex support
+math = true
+# (If math is enabled) 
+## if "katex" is set to true katex will be used to render LaTex, if not MathJax will be used instead
+katex = true
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
+[params]
+  # Subtitle of the website
+  # subtitle = "Половинку никто не пишет / Medium non scribitur."
+  # Your name or the name of you company
+  copyrightHolder = "Половинку никто не пишет"
+  # Show the "Powered by Hugo-Tufte and Hugo." 
+  showPoweredBy = false
+  # Site wide kill switch
+  hidedate = false
+  # Uncomment for dark code blocks
+  # codeBlocksDark = true
+
+
+ 
+  [[menu.nav]]
+  name = "Home"
+  pre = "<i class='fas fa-home la-lg'></i>"
+  weight = -110 
+  identifier = "home"
+  url = "/"
+[[menu.nav]]
+  name = "Тексты"
+  pre = "<i class='fas fa-book fa-lg'></i> "
+  weight = -100 
+  identifier = "posts"
+  url = "/post"
+[[menu.nav]]
+  name = "Разбивка"
+  pre = "<i class='fas fa-tags fa-lg'></i> "
+  weight = -90 
+  identifier = "categories"
+  url = "/tags"
+[[menu.nav]]
+  name = "About"
+  pre = "<i class='fas fa-info-circle  fa-lg'></i> "
+  weight = -80 
+  identifier = "about"
+  url = "/about"
