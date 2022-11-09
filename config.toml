@@ -1,7 +1,7 @@
 baseURL = 'http://noon.report/'
 languageCode = 'ru-ru'
 title = 'Noon Report'
-theme = "tufte"
+theme = "paper"
 
 
 # Site wide kill switch for Latex support
