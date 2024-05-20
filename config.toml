@@ -23,7 +23,7 @@ katex = true
   # Show the "Powered by Hugo-Tufte and Hugo." 
   showPoweredBy = false
   # Site wide kill switch
-  hidedate = false
+  hidedate = true
   # Uncomment for dark code blocks
   # codeBlocksDark = true
 
