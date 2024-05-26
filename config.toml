@@ -27,47 +27,23 @@ katex = true
   # Uncomment for dark code blocks
   # codeBlocksDark = true
   
-  [[menu.main]]
+
 
 
 [[menu.main]]
 name = "Все тексты"
-url = "/post"
+url = "/post/"
 weight = 2
 
 [[menu.main]]
 name = "О блоге"
-url = "/about"
+url = "/about/"
 weight = 3
 
 [[menu.main]]
 name = "Тэги"
-url = "/tags"
+url = "/tags/"
 weight = 4
 
 
  
-  [[menu.nav]]
-  name = "Home"
-  pre = "<i class='fas fa-home la-lg'></i>"
-  weight = -110 
-  identifier = "home"
-  url = "/"
-[[menu.nav]]
-  name = "Тексты"
-  pre = "<i class='fas fa-book fa-lg'></i> "
-  weight = -100 
-  identifier = "posts"
-  url = "/post"
-[[menu.nav]]
-  name = "Разбивка"
-  pre = "<i class='fas fa-tags fa-lg'></i> "
-  weight = -90 
-  identifier = "categories"
-  url = "/tags"
-[[menu.nav]]
-  name = "About"
-  pre = "<i class='fas fa-info-circle  fa-lg'></i> "
-  weight = -80 
-  identifier = "about"
-  url = "/about"
