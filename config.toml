@@ -40,10 +40,7 @@ name = "О блоге"
 url = "/about/"
 weight = 3
 
-[[menu.main]]
-name = "Тэги"
-url = "/tags/"
-weight = 4
+
 
 
  
