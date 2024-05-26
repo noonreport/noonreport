@@ -1,7 +1,7 @@
 baseURL = 'https://noonreport.onrender.com/'
 languageCode = 'ru-ru'
 title = 'Noon Report'
-theme = "paper"
+theme = "archie"
 
 
 # Site wide kill switch for Latex support
@@ -26,6 +26,24 @@ katex = true
   hidedate = true
   # Uncomment for dark code blocks
   # codeBlocksDark = true
+  
+  [[menu.main]]
+
+
+[[menu.main]]
+name = "Все тексты"
+url = "/post"
+weight = 2
+
+[[menu.main]]
+name = "О блоге"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Тэги"
+url = "/tags"
+weight = 4
 
 
  
